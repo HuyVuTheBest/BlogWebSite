@@ -1,0 +1,25 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột, mỗi cột chiếm 1 phần bằng nhau */
+    gap: 20px; /* Khoảng cách giữa các thẻ */
+    
+ 
+  }
+
+  .danger {
+    background-color: #ff4d4d;  // Màu nền đỏ nguy hiểm
+    color: white;               // Màu chữ trắng
+  }
+  
+  .danger:hover {
+    background-color: #ff1a1a;  // Màu nền khi hover
+  }
+ 
+  .edit {
+    background-color: #eaea3d;  // Màu nền đỏ nguy hiểm
+    color: rgb(5, 5, 5);               // Màu chữ trắng
+  }
+  
+  .edit:hover {
+    background-color: #fafa49;  // Màu nền khi hover
+  }

@@ -1,0 +1,13 @@
+
+
+<div class="flex justify-center items-center mt-8">
+    <h1 class="text-2xl font-bold">All blogs</h1>
+  </div>
+
+  <div class="card-container">
+    @for(item of allBlog; track $index){
+      <app-blog-card [item]="item"></app-blog-card>
+
+    }
+  </div>
+

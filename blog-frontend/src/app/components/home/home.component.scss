@@ -1,0 +1,5 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 cột, mỗi cột chiếm 1 phần bằng nhau */
+    gap: 20px; /* Khoảng cách giữa các thẻ */
+  }
